@@ -150,7 +150,17 @@ L'AP doit aussi avoir l'adresse IP définie dans ce fichier.
 **Questions:**
 
 - Qu'est-ce qu'une méthode d'authentification et pourquoi en avons-nous besoin ?
+
+Une méthode d'authentification permet d'authentifier un utilisateur sur le réseau.
+On en a besoin pour ne pas révéler des informations d'authentification à un acteur malveillant qui snifferait les ondes Wifi.
+
 - Pouvez-vous lister et décrire **brièvement** chacune des méthodes d'authentification activées par défaut ?
+
+EAP-TLS utilise des certificats pour authentifier un utilisateur, qui n'a donc pas de mot de passe.
+
+EAP-TTLS utilise des identifiants utilisateur / mot de passe, mais ceux-ci sont transmis en clair.
+
+PEAP utilise aussi des identifiants utilisateur / mot de passe, qui sont transmis de manière chiffrée.
 
 ## Section 7: Captures
 
