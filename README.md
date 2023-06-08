@@ -110,7 +110,13 @@ Ce fichier contient tous les clients autorisés à authentifier un utilisateur. 
 **Questions:**
 
 - Qu'est-ce que cette configuration signifie et pourquoi est-elle nécessaire ?
+
+Cette configuration défini un nouveau client nommé "Router" et ayant l'IP `192.168.1.1` et comme mot de passe `router123`.
+C'est nécessaire pour authentifier le client et donc la demande d'authentification associée.
+
 - Quel est le rôle de l'adresse IP et du mot de passe secret dans cette configuration ?
+
+Freeradius va vérifier que la demande d'authentification provienne d'un de ses client et avec le mot de passe défini pour celui-ci.
 
 ## Section 5: Configuration du point d'accès pour la connexion Enterprise
 
