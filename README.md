@@ -89,7 +89,12 @@ Pour être sûr qu'il puisse se connecter.
 **Questions:**
 
 - Qu'est-ce que le fichier `clients.conf` ?
+
+Ce fichier contient tous les clients autorisés à authentifier un utilisateur. Un client peut être un NAS ou, par exemple, un AP.
+
 - Qu'est-ce que radtest et comment l'utilisez-vous pour tester votre serveur Freeradius ?
+
+`radtest` permet de simuler la connexion d'un utilisateur via un client.
 
 ## Section 4: Ajout du point d'accès (AP) à clients.conf
 
