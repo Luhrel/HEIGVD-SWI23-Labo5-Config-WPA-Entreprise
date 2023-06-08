@@ -44,7 +44,13 @@ La raison pour laquelle nous utilisons Freeradius est qu'il offre un large éven
 **Questions:**
 
 - Qu'est-ce que le mode debug et pourquoi est-il utile dans cette situation ?
+
+Le mode debug permet de voir la configuration courante et de voir ce qui se passe sur le serveur freeradius en live.
+Il est utile pour voir si tout fonctionne correctement.
+
 - Que se passe-t-il si vous essayez de lancer Freeradius en mode debug alors que le service est en cours d'exécution ?
+
+La nouvelle instance de Freeradius nous indique que le port 18120 est déjà utilisé car il est déjà associé à un autre processus.
 
 ## Section 2: Ajout d'un utilisateur
 
