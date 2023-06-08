@@ -67,7 +67,12 @@ La nouvelle instance de Freeradius nous indique que le port 18120 est déjà uti
 **Questions:**
 
 - Que représente la ligne que vous avez ajoutée au fichier ?
+
+Cela représente les identifiants d'un utilisateur final, qui seront inséré lors de la connexion au Wifi Entreprise.
+
 - Pourquoi est-il important de tester Freeradius après avoir ajouté un utilisateur ?
+
+Pour être sûr qu'il puisse se connecter.
 
 ## Section 3: Test du serveur avec un client local
 
