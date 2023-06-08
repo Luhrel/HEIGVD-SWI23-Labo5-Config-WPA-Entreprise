@@ -130,7 +130,14 @@ Freeradius va vérifier que la demande d'authentification provienne d'un de ses 
 **Questions:**
 
 - Qu'est-ce qu'une connexion Enterprise et pourquoi est-elle importante ?
+
+Une connexion Enterprise est un Wifi utilisant WPA2-Enterprise.
+C'est important car il permet à un utilisateur de s'authentifier au serveur Radius via l'AP.
+
 - Quels paramètres devez-vous configurer sur l'AP pour établir une connexion Enterprise ?
+
+Il faut configurer l'AP en mode WPA2-Enterprise avec le mot de passe de l'AP, qui défini dans `clients.conf`.
+L'AP doit aussi avoir l'adresse IP définie dans ce fichier.
 
 ## Section 6: Configuration des méthodes d'authentification
 
